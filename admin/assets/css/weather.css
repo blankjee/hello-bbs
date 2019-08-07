@@ -1,0 +1,36 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+.weather-one {
+  background: #03a9f5;
+}
+.weather-one i {
+  font-size: 80px;
+  position: relative;
+  top: 5px;
+}
+.weather-one h2 {
+  display: inline-block;
+  float: right;
+  font-size: 48px;
+}
+.weather-one .city {
+  position: relative;
+  text-align: right;
+  top: -25px;
+}
+.weather-one .currently {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: 25px;
+}
+.weather-one .celcious {
+  text-align: right;
+  font-size: 20px;
+}

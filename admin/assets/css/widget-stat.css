@@ -1,0 +1,305 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+/*    Widget One
+---------------------------*/
+.stat-widget-one .stat-icon {
+  vertical-align: top;
+}
+.stat-widget-one .stat-icon i {
+  font-size: 30px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100px;
+  padding: 15px;
+  font-weight: 900;
+  display: inline-block;
+}
+.stat-widget-one .stat-content {
+  margin-left: 30px;
+  margin-top: 7px;
+}
+.stat-widget-one .stat-text {
+  font-size: 14px;
+  color: #252525;
+}
+.stat-widget-one .stat-digit {
+  font-size: 24px;
+  color: #252525;
+}
+/*    Widget Two
+---------------------------*/
+.stat-widget-two {
+  text-align: center;
+}
+.stat-widget-two .stat-digit {
+  font-size: 40px;
+  font-weight: 700;
+  color: #252525;
+}
+.stat-widget-two .stat-text {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #252525;
+}
+.stat-widget-two .progress {
+  height: 8px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  box-shadow: none;
+}
+.stat-widget-two .progress-bar {
+  box-shadow: none;
+}
+/*    Widget Three
+---------------------------*/
+.stat-widget-three .stat-icon {
+  display: inline-block;
+  padding: 33px;
+  position: absolute;
+  line-height: 21px;
+}
+.stat-widget-three .stat-icon i {
+  font-size: 30px;
+  color: #ffffff;
+}
+.stat-widget-three .stat-content {
+  text-align: center;
+  padding: 15px;
+  margin-left: 90px;
+}
+.stat-widget-three .stat-digit {
+  font-size: 30px;
+}
+.stat-widget-three .stat-text {
+  padding-top: 7px;
+}
+.home-widget-three .stat-icon {
+  line-height: 19px;
+  padding: 27px;
+}
+.home-widget-three .stat-digit {
+  font-size: 24px;
+  font-weight: 300;
+  color: #252525;
+}
+.home-widget-three .stat-content {
+  text-align: center;
+  margin-left: 60px;
+  padding: 13px;
+}
+.stat-widget-four {
+  position: relative;
+}
+.stat-widget-four .stat-icon {
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+}
+.stat-widget-four i {
+  display: block;
+  font-size: 36px;
+}
+.stat-widget-four .stat-content {
+  margin-left: 40px;
+  text-align: center;
+}
+.stat-widget-four .stat-heading {
+  font-size: 20px;
+}
+.stat-widget-five .stat-icon {
+  border-radius: 100px;
+  display: inline-block;
+  position: absolute;
+}
+.stat-widget-five i {
+  border-radius: 100px;
+  display: block;
+  font-size: 36px;
+  padding: 30px;
+}
+.stat-widget-five .stat-content {
+  margin-left: 100px;
+  padding: 24px 0;
+  position: relative;
+  text-align: right;
+  vertical-align: middle;
+}
+.stat-widget-five .stat-heading {
+  text-align: right;
+  padding-left: 80px;
+  font-size: 20px;
+  font-weight: 200;
+}
+.stat-widget-six {
+  position: relative;
+}
+.stat-widget-six .stat-icon {
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+}
+.stat-widget-six i {
+  display: block;
+  font-size: 36px;
+}
+.stat-widget-six .stat-content {
+  margin-left: 40px;
+  text-align: center;
+}
+.stat-widget-six .stat-heading {
+  font-size: 16px;
+  font-weight: 300;
+}
+.stat-widget-six .stat-text {
+  font-size: 12px;
+  padding-top: 4px;
+}
+.stat-widget-seven .stat-heading {
+  text-align: center;
+}
+.stat-widget-seven .gradient-circle {
+  text-align: center;
+  position: relative;
+  margin: 30px auto;
+  display: inline-block;
+  width: 100%;
+}
+.stat-widget-seven .gradient-circle i {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 35px;
+  font-size: 30px;
+}
+.stat-widget-seven .stat-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+.stat-widget-seven .stat-footer .stat-count {
+  padding-left: 5px;
+}
+.stat-widget-seven .count-header {
+  color: #252525;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.stat-widget-seven .stat-count {
+  font-size: 18px;
+  font-weight: 400;
+  color: #252525;
+}
+.stat-widget-seven .analytic-arrow {
+  position: relative;
+}
+.stat-widget-seven .analytic-arrow i {
+  font-size: 12px;
+}
+/* Stat widget Eight
+--------------------------- */
+.stat-widget-eight {
+  padding: 15px;
+}
+.stat-widget-eight .header-title {
+  font-size: 20px;
+  font-weight: 300;
+}
+.stat-widget-eight .ti-more-alt {
+  color: #878787;
+  cursor: pointer;
+  left: -5px;
+  position: absolute;
+  transform: rotate(90deg);
+}
+.stat-widget-eight .stat-content {
+  margin-top: 50px;
+}
+.stat-widget-eight .stat-content .ti-arrow-up {
+  font-size: 30px;
+  color: #1de9b6;
+}
+.stat-widget-eight .stat-content .stat-digit {
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 15px;
+}
+.stat-widget-eight .stat-content .progress-stats {
+  color: #aaadb2;
+  font-weight: 400;
+  position: relative;
+  top: 10px;
+}
+.stat-widget-eight .progress {
+  margin-bottom: 0;
+  margin-top: 30px;
+  height: 7px;
+  background: #EAEAEA;
+  box-shadow: none;
+}
+.stat-widget-nine .all-like {
+  float: right;
+}
+.stat-widget-nine .stat-icon i {
+  font-size: 22px;
+}
+.stat-widget-nine .stat-text {
+  font-size: 14px;
+}
+.stat-widget-nine .stat-digit {
+  font-size: 14px;
+}
+.stat-widget-nine .like-count {
+  font-size: 30px;
+}
+.horizontal {
+  position: relative;
+}
+.horizontal:before {
+  background: #ffffff;
+  bottom: 0;
+  content: "";
+  height: 38px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 1px;
+}
+/*
+=================================================
+    Responsive
+=================================================
+*/
+@media (max-width: 768px) {
+  .card {
+    display: inline-block;
+    width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .stat-widget-five .stat-heading {
+    padding-left: 0;
+  }
+  .stat-widget-two .stat-digit {
+    font-size: 16px;
+  }
+  .stat-widget-two .stat-text {
+    font-size: 14px;
+  }
+  .stat-widget-three .stat-digit {
+    font-size: 20px;
+  }
+  .stat-widget-four .stat-heading {
+    font-size: 18px;
+  }
+  .stat-widget-three .stat-icon {
+    padding: 26px;
+  }
+}

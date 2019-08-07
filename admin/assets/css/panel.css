@@ -1,0 +1,79 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+.panel {
+  border-radius: 0;
+  margin: 15px 0;
+}
+.panel-body {
+  font-family: 'MontserratLight', sans-serif;
+}
+.panel-primary {
+  border-color: #03a9f5;
+}
+.panel-primary .panel-heading {
+  background: #03a9f5;
+  border-color: #03a9f5;
+  color: #ffffff;
+}
+.panel-success {
+  border-color: #1de9b6;
+}
+.panel-success .panel-heading {
+  background: #1de9b6;
+  border-color: #1de9b6;
+  color: #ffffff;
+}
+.panel-info {
+  border-color: #03a9f4;
+}
+.panel-info .panel-heading {
+  background: #03a9f4;
+  border-color: #03a9f4;
+  color: #ffffff;
+}
+.panel-danger {
+  border-color: #e74c3c;
+}
+.panel-danger .panel-heading {
+  background: #e74c3c;
+  border-color: #e74c3c;
+  color: #ffffff;
+}
+.panel-warning {
+  border-color: #f39c12;
+}
+.panel-warning .panel-heading {
+  background: #f39c12;
+  border-color: #f39c12;
+  color: #ffffff;
+}
+.panel-pink {
+  border-color: #e6a1f2;
+}
+.panel-pink .panel-heading {
+  background: #e6a1f2;
+  border-color: #e6a1f2;
+  color: #ffffff;
+}
+.panel-dark {
+  border-color: #545454;
+}
+.panel-dark .panel-heading {
+  background: #545454;
+  border-color: #545454;
+  color: #ffffff;
+}
+.panel-white {
+  border-color: #252525;
+}
+.panel-white .panel-heading {
+  background: #ffffff;
+  border-color: #252525;
+  color: #252525;
+}

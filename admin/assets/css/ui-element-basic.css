@@ -1,0 +1,59 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+/*Aleart
+-------------*/
+.alert-primary {
+  background-color: #57c9fd;
+  border-color: #57c9fd;
+  color: #03a9f5;
+}
+.alert-success {
+  background-color: #91f4dc;
+  border-color: #91f4dc;
+  color: #1de9b6;
+}
+.alert-warning {
+  background-color: #f9cf8b;
+  border-color: #f9cf8b;
+  color: #f39c12;
+}
+.alert-danger {
+  background-color: #f5b4ae;
+  border-color: #f5b4ae;
+  color: #e74c3c;
+}
+.alert-pink {
+  background-color: #f8e4fb;
+  border-color: #f8e4fb;
+  color: #e6a1f2;
+}
+.alert-dismissable .close,
+.alert-dismissible .close {
+  color: rgba(0, 0, 0, 0.8);
+}
+/*    Labels
+------------------*/
+.label-default {
+  background-color: #878787;
+}
+.label-primary {
+  background-color: #03a9f5;
+}
+.label-success {
+  background-color: #1de9b6;
+}
+.label-info {
+  background-color: #03a9f4;
+}
+.label-danger {
+  background-color: #e74c3c;
+}
+.label-warning {
+  background-color: #f39c12;
+}

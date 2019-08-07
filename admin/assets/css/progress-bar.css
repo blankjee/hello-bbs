@@ -1,0 +1,32 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+.progress-bar {
+  background-color: #03a9f5;
+}
+.progress-bar-primary {
+  background-color: #03a9f5;
+}
+.progress-bar-success {
+  background-color: #1de9b6;
+}
+.progress-bar-info {
+  background-color: #03a9f4;
+}
+.progress-bar-danger {
+  background-color: #e74c3c;
+}
+.progress-bar-warning {
+  background-color: #f39c12;
+}
+.progress-bar-pink {
+  background-color: #e6a1f2;
+}
+.progress-sm {
+  height: 8px;
+}

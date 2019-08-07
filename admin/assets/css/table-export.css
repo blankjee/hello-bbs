@@ -1,0 +1,18 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+@media (max-width: 667px) {
+  .dt-buttons {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .dt-buttons {
+    display: inline-block;
+  }
+}

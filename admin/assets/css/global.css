@@ -1,0 +1,319 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #eef1f6;
+  color: #252525;
+}
+a,
+button {
+  outline: none!important;
+  text-decoration: none!important;
+  color: #252525;
+  transition: all 0.2s ease 0s;
+}
+a:hover,
+button:hover,
+a:focus,
+button:focus,
+a.active,
+button.active {
+  color: #252525;
+  outline: none!important;
+  text-decoration: none!important;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+li {
+  list-style: none;
+}
+p {
+  font-family: 'MontserratLight', sans-serif;
+  color: #252525;
+}
+.dib {
+  display: inline-block;
+}
+.rotate-90 {
+  transform: rotate(90deg);
+}
+.rotate-180 {
+  transform: rotate(180deg);
+}
+.content-wrap {
+  margin-top: 55px;
+}
+.alert h4 {
+  color: #252525;
+}
+.border-none {
+  border: 1px solid transparent;
+}
+.footer > p {
+  background: #ffffff;
+  margin-top: 15px;
+  padding: 15px;
+  text-align: center;
+}
+.footer > p a {
+  color: #e74c3c;
+}
+.bar-hidden {
+  overflow-X: hidden;
+}
+.color-white {
+  color: #ffffff;
+}
+.btn-btn {
+  padding: 15px 25px;
+  border: 0px;
+}
+.btn-btn:hover {
+  color: #ffffff;
+}
+.letter-space {
+  letter-spacing: 1px;
+}
+.solid-btn {
+  padding: 15px 42px;
+}
+/*    Color Mixins
+-------------------*/
+.text-primary,
+.color-primary {
+  color: #03a9f5;
+}
+.text-success,
+.color-success {
+  color: #1de9b6;
+}
+.text-info,
+.color-info {
+  color: #03a9f4;
+}
+.text-danger,
+.color-danger {
+  color: #e74c3c;
+}
+.text-warning,
+.color-warning {
+  color: #f39c12;
+}
+.text-pink,
+.color-pink {
+  color: #e6a1f2;
+}
+.text-dark,
+.color-dark {
+  color: #545454;
+}
+/*    Mixins
+--------------------------*/
+.pr {
+  position: relative;
+}
+.pa {
+  position: absolute;
+}
+/*    Background Mixins
+--------------------------*/
+.bg-primary {
+  background: #03a9f5;
+  color: #ffffff;
+  fill: #03a9f5;
+}
+.bg-success {
+  background: #1de9b6;
+  color: #ffffff;
+  fill: #1de9b6;
+}
+.bg-info {
+  background: #03a9f4;
+  color: #ffffff;
+  fill: #03a9f4;
+}
+.bg-danger {
+  background: #e74c3c;
+  color: #ffffff;
+  fill: #e74c3c;
+}
+.bg-warning {
+  background: #f39c12;
+  color: #ffffff;
+  fill: #f39c12;
+}
+.bg-pink {
+  background: #e6a1f2;
+  color: #ffffff;
+  fill: #e6a1f2;
+}
+.bg-dark {
+  background: #545454;
+  color: #ffffff;
+  fill: #545454;
+}
+.bg-transparent {
+  background: transparent;
+  color: #252525;
+}
+.no-select-arrow {
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  border: 1px solid #e7e7e7;
+}
+.bg-ash {
+  background: #f5f5f5;
+}
+/*    Border Mixins
+--------------------------*/
+.border-primary {
+  border-color: #03a9f5;
+}
+.border-success {
+  border-color: #1de9b6;
+}
+.border-info {
+  border-color: #03a9f4;
+}
+.border-danger {
+  border-color: #e74c3c;
+}
+.border-warning {
+  border-color: #f39c12;
+}
+.border-pink {
+  border-color: #e6a1f2;
+}
+.border-dark {
+  border-color: #545454;
+}
+.no-border {
+  border: 0px!important;
+}
+.border-top {
+  border-top: 1px solid #e7e7e7;
+}
+.border-white {
+  border: 1px solid #ffffff;
+}
+.border-bottom {
+  border-bottom: 1px solid #e7e7e7;
+}
+.border-left {
+  border-left: 1px solid #e7e7e7;
+}
+.border-right {
+  border-right: 1px solid #e7e7e7;
+}
+.white-bottom {
+  border-bottom: 1px solid #ffffff;
+}
+.radius-0 {
+  border-radius: 0px;
+}
+/*    Brand Background
+-----------------------------*/
+.bg-facebook {
+  background: #3b5998;
+  fill: #3b5998;
+}
+.bg-twitter {
+  background: #1da1f2;
+  fill: #1da1f2;
+}
+.bg-youtube {
+  background: #cd201f;
+  fill: #cd201f;
+}
+.bg-google-plus {
+  background: #dd4b39;
+  fill: #dd4b39;
+}
+/*    width
+-----------------------------*/
+.w10pr {
+  width: 10%;
+}
+.w12pr {
+  width: 12%;
+}
+.p-28 {
+  padding: 28px;
+}
+/*    Chart Spanrkline
+-------------------------*/
+.jqstooltip {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/*    Bootstrap class
+---------------------------*/
+@media (min-width: 1500px) {
+  .container {
+    width: 1400px;
+  }
+}
+.row {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}

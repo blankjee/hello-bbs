@@ -1,0 +1,31 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+.current-progress {
+  margin-top: 15px;
+}
+.progress-content {
+  margin-bottom: 20px;
+}
+.progress-content:last-child {
+  margin-bottom: 0px;
+}
+.current-progressbar {
+  margin-top: 3px;
+}
+.current-progressbar .progress {
+  height: 15px;
+  margin: 0px;
+  box-shadow: none;
+}
+.current-progressbar .progress-bar {
+  box-shadow: 0px;
+  line-height: 14px;
+  font-size: 11px;
+  box-shadow: none;
+}

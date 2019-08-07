@@ -1,0 +1,381 @@
+@import "variable.less"; // Variable.less
+body {
+    font-family: @mont;
+    background: @white-light;
+    color: @text-light;
+}
+
+a,
+button {
+    outline: none!important;
+    text-decoration: none!important;
+    color: @text-light;
+    transition: all 0.2s ease 0s;
+    &:hover,
+    &:focus,
+    &.active {
+        color: @black;
+        outline: none!important;
+        text-decoration: none!important;
+    }
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    //    margin-bottom: 0px;
+    font-family: @mol;
+    color: @text-light;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    //    margin: 0px;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+//#main-content {
+//    padding: 10px 0px;
+//}
+
+.content-wrap {
+  margin-top: 55px;
+}
+
+.alert {
+    h4 {
+        color: @text;
+    }
+}
+.border-none{
+    border: 1px solid transparent;
+}
+.footer > p {
+  background: @white;
+//  margin-bottom: 30px;
+  margin-top: 15px;
+  padding: 15px;
+  text-align: center;
+    a{
+        color: @danger;
+    }
+}
+.bar-hidden{
+    overflow-X:hidden;
+}
+.color-white{
+    color: @white;
+}
+.btn-btn {
+    padding: 15px 25px;
+    border: 0px;
+    &:hover{
+        color: @white;
+    }
+}
+.letter-space{
+    letter-spacing: 1px;
+}
+.solid-btn{
+    padding: 15px 42px;
+}
+/*    Color Mixins
+-------------------*/
+
+.text-primary,
+.color-primary {
+    color: @primary;
+}
+
+.text-success,
+.color-success {
+    color: @success;
+}
+
+.text-info,
+.color-info {
+    color: @info;
+}
+
+.text-danger,
+.color-danger {
+    color: @danger;
+}
+
+.text-warning,
+.color-warning {
+    color: @warning;
+}
+
+.text-pink,
+.color-pink {
+    color: @pink;
+}
+
+.text-dark,
+.color-dark {
+    color: @dark;
+}
+
+
+/*    Mixins
+--------------------------*/
+.pr{
+    position: relative;
+}
+.pa{
+    position: absolute;
+}
+
+/*    Background Mixins
+--------------------------*/
+
+.bg-primary {
+    background: @primary;
+    color: @white;
+    fill: @primary;
+}
+
+.bg-success {
+    background: @success;
+    color: @white;
+    fill: @success;
+}
+
+.bg-info {
+    background: @info;
+    color: @white;
+    fill: @info;
+}
+
+.bg-danger {
+    background: @danger;
+    color: @white;
+    fill: @danger;
+}
+
+.bg-warning {
+    background: @warning;
+    color: @white;
+    fill: @warning;
+}
+
+.bg-pink {
+    background: @pink;
+    color: @white;
+    fill: @pink;
+}
+
+.bg-dark {
+    background: @dark;
+    color: @white;
+    fill: @dark;
+}
+
+.bg-transparent {
+    background: transparent;
+    color: @black;
+}
+.no-select-arrow{
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    border: 1px solid @border;
+}
+.bg-ash{
+    background: @ash;
+}
+/*    Border Mixins
+--------------------------*/
+
+.border-primary {
+    border-color: @primary;
+}
+
+.border-success {
+    border-color: @success;
+}
+
+.border-info {
+    border-color: @info;
+}
+
+.border-danger {
+    border-color: @danger;
+}
+
+.border-warning {
+    border-color: @warning;
+}
+
+.border-pink {
+    border-color: @pink;
+}
+
+.border-dark {
+    border-color: @dark;
+}
+
+.no-border {
+    border: 0px!important;
+}
+
+.border-top {
+    border-top: 1px solid @border;
+}
+.border-white{
+    border: 1px solid @white;
+}
+.border-bottom {
+    border-bottom: 1px solid @border;
+}
+
+.border-left {
+    border-left: 1px solid @border;
+}
+
+.border-right {
+    border-right: 1px solid @border;
+}
+.white-bottom{
+    border-bottom: 1px solid @white;
+}
+.radius-0{
+    border-radius: 0px;
+}
+/*    Brand Background
+-----------------------------*/
+
+.bg-facebook {
+    background: @facebook;
+    fill: @facebook;
+}
+
+.bg-twitter {
+    background: @twitter;
+    fill: @twitter;
+}
+
+.bg-youtube {
+    background: @youtube;
+    fill: @youtube;
+}
+.bg-google-plus {
+    background: @google-plus;
+    fill: @google-plus;
+}
+
+
+/*    width
+-----------------------------*/
+
+.w10pr {
+    width: 10%
+}
+
+.w12pr {
+    width: 12%
+}
+.p-28{
+    padding: 28px;
+}
+/*    Chart Spanrkline
+-------------------------*/
+		.jqstooltip {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/*    Bootstrap class
+---------------------------*/
+
+@media (min-width: 1500px) {
+  .container {
+    width: 1400px;
+  }
+}
+
+.row {
+  margin-left: -7.5px;
+  margin-right: -7.5px;
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+

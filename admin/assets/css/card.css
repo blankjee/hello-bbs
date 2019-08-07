@@ -1,0 +1,85 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+.card-body {
+  background: #ffffff;
+}
+.card {
+  background: #ffffff;
+  margin: 7.5px 0px 7.5px 0px;
+  padding: 20px;
+  border-radius: 0px;
+}
+.card-header h4 {
+  display: inline-block;
+  font-weight: 500;
+}
+.card-header p {
+  font-family: 'MontserratLight', sans-serif;
+  margin-bottom: 12px;
+}
+.card-header-right-icon {
+  display: inline-block;
+  float: right;
+}
+.card-header-right-icon li {
+  float: right;
+  padding-left: 14px;
+  color: #252525;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: all 0.5s ease-in-out;
+  display: inline-block;
+}
+.card-header-right-icon li .ti-close {
+  font-size: 12px;
+}
+.card-option {
+  position: relative;
+}
+.card-option-dropdown {
+  display: none;
+  left: auto;
+  right: 0;
+}
+.card-option-dropdown li {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0px;
+}
+.card-option-dropdown li a {
+  line-height: 25px;
+  font-size: 12px;
+}
+.card-option-dropdown li a i {
+  margin-right: 10px;
+}
+.doc-link {
+  float: right;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.doc-link:hover:after,
+.doc-link:focus:after {
+  opacity: 1;
+  visibility: visible;
+}
+.doc-link:after {
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  content: "Documentation";
+  font-size: 12px;
+  padding: 5px 10px;
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}

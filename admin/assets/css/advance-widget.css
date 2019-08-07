@@ -1,0 +1,51 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+.media-text-right {
+  text-align: right;
+}
+.media-text-left {
+  text-align: left;
+}
+.boxshadow-none {
+  box-shadow: none;
+}
+.progress-sm {
+  height: 8px;
+}
+.bg-warning-dark {
+  background: #e7b63a;
+}
+.bg-info-dark {
+  background: #8b67c9;
+}
+.bg-danger-dark {
+  background: #e63327;
+}
+.bg-success-dark {
+  background: #2ed3aa;
+}
+.bg-primary-dark {
+  background: #0095e1;
+}
+.widget-card-circle i {
+  font-size: 30px;
+  left: 0;
+  line-height: 97px;
+  right: 0;
+  text-align: center;
+}
+.widget-line-list li {
+  display: inline-block;
+  font-size: 28px;
+  line-height: 27px;
+  padding: 5px 20px 0 15px;
+}
+.widget-line-list li span {
+  font-size: 12px;
+}

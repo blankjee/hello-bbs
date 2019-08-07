@@ -1,0 +1,265 @@
+@media (min-width: 768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.container-fluid:after, .container-fluid:before {
+    content: " ";
+    display: table
+}
+
+.container-fluid:after {
+    clear: both
+}
+
+body,html {
+    background: #e9eaed;
+    color: #222527;
+    font-family: Helvetica, Arial, "PingFang SC", "Noto Sans", Roboto, "Microsoft Yahei", sans-serif;
+    font-size: 14px;
+    letter-spacing: .03em;
+}
+
+#instantclick-bar {
+    background: #222222;
+}
+
+a {
+    text-decoration: none;
+    color: #222527;
+    font-size: 14px;
+}
+
+.message-header a:not(.button) {
+    text-decoration: none;
+}
+
+.message-body a:not(.button) {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #FFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+    border: 0px;
+    color: #A1C3EE;
+    z-index: 1030;
+}
+
+.search-bar input {
+    border: none;
+    box-shadow: none;
+}
+
+.boom {
+    width: 480px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+.message {
+    font-size: inherit;
+}
+
+input.error {
+    border: 1px solid #ff3860;
+}
+
+label.error {
+    color: #ff3860;
+    display: block;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+}
+
+hr{
+    background-color: #dbdbdb;
+    border: medium none;
+    display: block;
+    height: 1px;
+    margin: 0.5rem 0;
+}
+
+.tag:not(body){
+    font-size: 1rem;
+}
+
+.media-right .tag:not(body){
+    font-size: .8rem;
+}
+
+.shadow-1 {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.node-icon i {
+    font-size: 60px;
+}
+
+.node-icon .item-icon {
+    padding-bottom: 8px;
+}
+
+.node-icon a:not(.button) {
+    text-decoration: none;
+}
+
+.home-topic a:not(.button) {
+    text-decoration: none;
+}
+
+.home-topic .message {
+    font-size: inherit;
+}
+
+.node-list .node label {
+    font-weight: 400;
+    color: #aaa;
+    text-align: right;
+}
+
+.node-list .media-left {
+    min-width: 100px;
+}
+
+.media-body, .media-left, .media-right {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.node-list .node .name {
+    margin-bottom: 10px;
+    padding: 0 5px;
+    display: block;
+    float: left;
+    text-align: left;
+}
+
+.tips-foot{
+    text-align: right;
+}
+
+.avatar-48 {
+    width: 48px;
+    height: 48px;
+    border-radius: 120px;
+}
+
+.home-topic .topic-title {
+    color: #222;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.message a:not(.button):not(.tag) {
+    text-decoration: none;
+}
+
+.home-topic .message-body a:not(.button) .topic-meta {
+    font-size: 14px;
+    color: #555;
+}
+
+.likes {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+abbr[title], acronym[title] {
+    text-decoration: underline dotted;
+}
+
+abbr[title] {
+    border-bottom: 0px;
+    cursor: pointer;
+}
+
+.topic-head-meta, .topic-head-meta a {
+    color: #9CA4A9;
+    font-size: 12px;
+}
+
+.topic-content {
+    color: #222527;
+    padding: 1em 1.25em;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-color: #f5f5f5;
+
+}
+
+.topic-footer a {
+    color: #9CA4A9;
+}
+
+.topic-footer i {
+    font-size: 15px;
+}
+
+.footer {
+    background: none;
+    padding: 3rem 1.5rem 1rem;
+}
+
+.number {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 290486px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: .875rem;
+    height: 1em;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: 0;
+    min-width: 1em;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+.badge-danger {
+    background: #e74c3c;
+    color: #ffffff;
+}

@@ -1,0 +1,18 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+.datamap-sales-hover-tooltip {
+  background: #545454;
+  font-family: 'MontserratLight', sans-serif;
+  padding: 5px 10px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: capitalize;
+  border-radius: 3px;
+}

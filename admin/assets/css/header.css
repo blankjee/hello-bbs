@@ -1,0 +1,238 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+/*    Header
+---------------*/
+.header {
+  background: #ffffff;
+  position: fixed;
+  width: 100%;
+  min-height: 50px;
+  z-index: 990;
+  top: 0;
+}
+.logo {
+  /*background: #03A9F5;*/
+  display: inline-block;
+  padding: 18px 0;
+  text-align: center;
+  width: 250px;
+  transition: width 300ms ease-in-out;
+}
+.logo span {
+  color: #252525;
+  font-size: 16px;
+  font-weight: 600;
+}
+.sidebar-hide .logo {
+  width: 0px;
+}
+.sidebar-hide .logo span {
+  display: none;
+}
+.header-icon {
+  font-size: 18px;
+  padding: 14px 15px;
+  color: #252525;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+}
+.header-icon i,
+.header-icon img,
+.header-icon span {
+  cursor: pointer;
+}
+.header-icon:hover,
+.header-icon:focus,
+.header-icon.active {
+  background: rgba(255, 255, 255, 0.3);
+}
+.header-icon.active .drop-down {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+}
+.drop-down {
+  background: #ffffff;
+  color: #252525;
+  visibility: hidden;
+  opacity: 0;
+  width: 320px;
+  position: absolute;
+  right: 0;
+  top: 55px;
+  transform: translateY(50px);
+  transition: all 0.4s ease-in-out;
+  border-top: 0px;
+  border: 1px solid #e7e7e7;
+}
+.header-left .drop-down {
+  left: 0;
+}
+.dropdown-content-heading {
+  padding: 10px 15px;
+}
+.dropdown-content-heading span {
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  color: #252525;
+}
+.dropdown-content-heading i {
+  position: relative;
+  top: 5px;
+  opacity: 1!important;
+  color: #03a9f5;
+}
+.dropdown-content-body li {
+  padding: 15px;
+  border-top: 1px solid #eef1f6;
+}
+.dropdown-content-body li:hover,
+.dropdown-content-body li:focus,
+.dropdown-content-body li.active {
+  background: #eef1f6;
+  border-top: 1px solid #eef1f6;
+}
+.dropdown-content-body li a:hover,
+.dropdown-content-body li a:focus,
+.dropdown-content-body li a.active {
+  color: #252525;
+}
+.dropdown-content-body li:last-child {
+  padding: 5px 15px;
+}
+.notification-heading {
+  font-size: 13px;
+  font-weight: 700;
+  color: #252525;
+}
+.avatar-img {
+  border-radius: 100px;
+  width: 25px;
+  position: relative;
+  top: -3px;
+}
+.user-avatar {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.notification-text {
+  font-size: 12px;
+  font-family: 'MontserratLight', sans-serif;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-top: 3px;
+}
+.notification-timestamp {
+  font-size: 11px;
+}
+.notification-percentage {
+  font-size: 12px;
+  position: relative;
+  top: 12px;
+}
+.notification-unread {
+  background: #eef1f6;
+}
+.notification-unread .notification-heading {
+  color: #555;
+}
+.more-link {
+  font-size: 12px;
+  color: #03a9f5;
+  display: inline-block;
+}
+.dropdown-profile {
+  width: 200px;
+}
+.dropdown-profile .trial-day {
+  font-size: 11px;
+  padding-top: 2px;
+  color: #03a9f5;
+}
+.dropdown-profile li {
+  padding: 7px 15px;
+}
+.dropdown-profile li a {
+  display: block;
+  color: #252525;
+}
+.dropdown-profile li a:hover,
+.dropdown-profile li a:focus,
+.dropdown-profile li a.active {
+  color: #252525;
+}
+.dropdown-profile li a span {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+.dropdown-profile li a i {
+  margin-right: 5px;
+  font-size: 14px;
+}
+.dropdown-profile li:last-child {
+  padding: 7px 15px;
+}
+.header-link {
+  position: relative;
+  top: -3px;
+  font-size: 14px;
+}
+/*    Search box
+----------------------*/
+.main .page-header {
+  min-height: 50px;
+  margin: 15px 0px 5px 0px;
+  padding: 0px 15px;
+  background: #ffffff;
+  border-bottom: 0px;
+}
+.main .page-header h1 {
+  font-size: 18px;
+  padding: 14px 0px;
+  margin: 0px;
+}
+.main .page-header h1 span {
+  font-size: 14px;
+}
+.main .page-header .breadcrumb {
+  margin: 0px;
+  padding: 14px 15px;
+  background: #ffffff;
+}
+.main .page-header .breadcrumb li:hover,
+.main .page-header .breadcrumb li:focus,
+.main .page-header .breadcrumb li.active {
+  font-family: 'MontserratLight', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+}
+.main .page-header .breadcrumb li a {
+  font-size: 12px;
+  font-family: 'MontserratLight', sans-serif;
+}
+.dropdown-task .progress {
+  height: 5px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  box-shadow: none;
+}
+.dropdown-task .progress-bar {
+  box-shadow: none;
+}
+/*  Responsive*/
+@media (min-width: 320px) and (max-width: 679px) {
+  .sidebar {
+    top: 50px;
+  }
+}

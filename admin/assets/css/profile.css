@@ -1,0 +1,110 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+.user-work h4,
+.user-skill h4 {
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 15px;
+  padding: 5px 0px;
+  border-bottom: 1px solid #e7e7e7;
+  font-family: 'MontserratLight', sans-serif;
+}
+.work-content {
+  margin-bottom: 15px;
+}
+.work-content h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.user-skill li a {
+  line-height: 25px;
+}
+.user-profile-name {
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 0px 15px;
+}
+.user-Location {
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 10px;
+  font-family: 'MontserratLight', sans-serif;
+}
+.user-Location i {
+  font-size: 14px;
+}
+.user-job-title {
+  font-size: 14px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  color: #03a9f5;
+}
+.ratings h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-left: 15px;
+}
+.ratings span {
+  margin-right: 10px;
+}
+.rating-star {
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+.user-send-message {
+  margin-top: 15px;
+  padding-left: 15px;
+}
+.user-profile-tab {
+  margin-top: 15px;
+  padding: 0px 15px;
+}
+.user-profile-tab li a {
+  padding: 7px 40px 7px 0px;
+}
+.contact-information,
+.basic-information {
+  margin: 10px 0px;
+}
+.contact-information h4,
+.basic-information h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: 'MontserratLight', sans-serif;
+}
+.contact-title {
+  display: inline-block;
+  padding-bottom: 15px;
+  width: 170px;
+  font-size: 16px;
+  color: #252525;
+}
+.phone-number,
+.mail-address,
+.contact-email,
+.contact-website,
+.contact-skype,
+.birth-date,
+.gender {
+  font-family: 'MontserratLight', sans-serif;
+  font-size: 16px;
+  color: #252525;
+}
+.profile-widget {
+  margin: 8px 0;
+  text-align: center;
+}
+.profile-widget .stat-text {
+  padding-bottom: 6px;
+}

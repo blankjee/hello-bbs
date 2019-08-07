@@ -1,0 +1,315 @@
+/*    Font Variable
+----------------------*/
+/* @mont:'Montserrat', sans-serif;
+@mol:'MontserratLight', sans-serif;
+ */
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+/*  transitions
+------------------*/
+.t5s {
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.box-circle {
+  border-radius: 100%;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 24px;
+  height: 66px;
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 66px;
+}
+.widget-title {
+  font-size: 24px;
+  color: #252525;
+  margin: 0px;
+}
+.widget-header-box {
+  margin-top: 8px;
+  margin-left: 30px;
+}
+.widget-header-box p {
+  color: #878787;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.phone-card h4 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.phone-card .text {
+  line-height: 34px;
+}
+.personal-info h4 {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.wedget-btn {
+  display: inline-block;
+  margin: 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.semi-text {
+  font-weight: 600;
+}
+.light-text {
+  font-weight: 300;
+}
+.stat-text {
+  font-size: 20px;
+}
+.bg-primary-gradient {
+  background: linear-gradient(to right, #03a9f5, #1de9b6);
+}
+select::-ms-expand {
+  display: none;
+}
+.number-code select {
+  border-radius: 100px;
+  height: 42px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.phone-card-input .form-control {
+  border-bottom: 1px solid #ffffff;
+}
+.phone-card-input .form-control:hover,
+.phone-card-input .form-control:focus,
+.phone-card-input .form-control.active {
+  border-left: 0px !important;
+  border-top: 0px !important;
+  border-right: 0px !important;
+  outline: none!important;
+  box-shadow: none!important;
+}
+.phone-card-input .btn:hover,
+.phone-card-input .btn:focus .phone-card-input .btn.active {
+  box-shadow: none !important;
+  outline: none!important;
+}
+.active-table-card tr th {
+  color: #878787;
+  text-transform: uppercase;
+  font-weight: 400 !important;
+  font-size: 12px;
+}
+.active-table-card tr td {
+  color: #aaaaaa;
+  font-size: 14px;
+}
+.active-table-card tr td span {
+  color: #878787;
+  font-size: 16px;
+}
+.active-table-card > tbody > tr > td,
+.active-table-card > tbody > tr > th,
+.active-table-card > tfoot > tr > td,
+.active-table-card > tfoot > tr > th,
+.active-table-card > thead > tr > td,
+.active-table-card > thead > tr > th {
+  line-height: 54px;
+}
+.personal-info label {
+  padding: 30px;
+  margin: 8px;
+}
+.personal-info .info-check-male {
+  padding: 30px 37px;
+}
+.personal-info .info-check span {
+  margin-top: 5px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #ffffff;
+}
+.select-info select {
+  height: 50px;
+  padding: 8px;
+  width: 100%;
+}
+.user-img img {
+  border-radius: 100px;
+  margin-right: 15px;
+}
+.point {
+  border-radius: 100px;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+}
+.widget-rating-line .percentCount {
+  position: absolute;
+  right: 0;
+  top: -40px;
+}
+.round-img img {
+  border-radius: 100px;
+}
+.project-rating span {
+  padding: 5px 20px;
+  font-size: 14px;
+  color: #878787;
+}
+.project-rating span i {
+  margin-right: 10px;
+}
+.state-line {
+  border-top: 1px solid #e7e7e7;
+}
+.download-box .lg-icon {
+  font-size: 36px;
+}
+.download p {
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.download h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 12px;
+}
+.profile-name h4 {
+  font-size: 22px;
+}
+.point-number {
+  position: absolute;
+  right: 0px;
+  color: #aaaaaa;
+}
+.point-rating .progress {
+  height: 7px;
+}
+.leader-profile span {
+  font-size: 18px;
+  color: #878787;
+}
+.leader-profile .point {
+  position: absolute;
+  right: 40px;
+  top: 11px;
+}
+.leader-profile .point .rating {
+  font-size: 12px;
+}
+.box-card ul li a {
+  color: #aaaaaa;
+  padding: 15px 15px 7px;
+  font-weight: 300;
+}
+.box-card .nav-tabs > li.active > a::after,
+.box-card .nav-tabs > li.active > a:focus::after,
+.box-card .nav-tabs > li.active > a:hover::after {
+  background: #1de9b6;
+  bottom: -21px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+.box-card .nav-tabs > li.active > a,
+.box-card .nav-tabs > li.active > a:focus,
+.box-card .nav-tabs > li.active > a:hover {
+  color: #878787;
+}
+.box-heading {
+  font-size: 22px;
+  color: #878787;
+}
+.box-heading span {
+  font-size: 14px;
+}
+.user-table-card tr {
+  position: relative;
+}
+.user-table-card tr td {
+  color: #878787;
+}
+.user-table-card tr:hover .project-btn {
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.user-table-card tr:hover .project-line {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.user-table-card .project {
+  color: #aaaaaa;
+}
+.user-table-card .project-btn {
+  opacity: 0;
+  position: absolute;
+  top: 15px;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.user-table-card .project-btn .btn {
+  padding: 0px 12px;
+  font-size: 12px;
+  color: #ffffff;
+}
+.user-table-card .project-line {
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+.list-bottom-line .nav-tabs {
+  border-bottom: 1px solid transparent;
+}
+.user-table-card > tbody > tr > td,
+.user-table-card > tbody > tr > th,
+.user-table-card > tfoot > tr > td,
+.user-table-card > tfoot > tr > th,
+.user-table-card > thead > tr > td,
+.user-table-card > thead > tr > th {
+  line-height: 64px;
+}
+.persent-card .star-head .persent {
+  font-size: 36px;
+}
+.persent-card .star-head .persent i {
+  font-size: 12px;
+}
+.persent-card .star-head .icon-persent {
+  float: right;
+  font-size: 14px;
+  color: #aaa;
+}
+.persent-card .point-rating i {
+  font-size: 12px;
+}

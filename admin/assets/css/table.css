@@ -1,0 +1,73 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+thead tr th {
+  color: #252525;
+  font-weight: 500;
+}
+thead tr th:last-child {
+  text-align: right;
+}
+tbody tr th {
+  color: #252525;
+  font-family: 'MontserratLight', sans-serif;
+  font-weight: normal;
+}
+tbody tr td {
+  font-family: 'MontserratLight', sans-serif;
+  color: #252525;
+}
+tbody tr td:last-child {
+  text-align: right;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  line-height: 32px;
+  vertical-align: top;
+}
+.table > thead > tr > th {
+  border-bottom: 1px solid #e7e7e7;
+  font-weight: 600;
+}
+.table {
+  margin-bottom: 0px;
+}
+.table .badge {
+  text-transform: uppercase;
+}
+.student-data-table label {
+  margin-right: 7px;
+}
+.student-data-table td span a {
+  padding: 3px;
+}
+.search-action {
+  bottom: 0;
+  display: inline-block;
+  position: absolute;
+  right: 92px;
+  text-align: right;
+}
+.search-type .form-control {
+  height: 30px;
+}
+@media (max-width: 1199px) {
+  .search-action {
+    text-align: center;
+    position: relative;
+    right: 0;
+  }
+  .search-type .form-control {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+}

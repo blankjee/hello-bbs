@@ -1,0 +1,68 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+.login-logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.login-logo span {
+  color: #ffffff;
+  font-size: 24px;
+}
+.login-logo img {
+  height: 75px;
+}
+.login-content {
+  margin: 100px 0;
+}
+.login-form {
+  background: #ffffff;
+  padding: 30px 30px 20px;
+  border-radius: 2px;
+}
+.login-form h4 {
+  color: #252525;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.login-form .checkbox {
+  color: #252525;
+}
+.login-form .checkbox label {
+  text-transform: none;
+}
+.login-form .btn {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 15px;
+  border: 0px;
+}
+.login-form label {
+  color: #252525;
+  text-transform: uppercase;
+}
+.login-form label a {
+  color: #03a9f5;
+}
+.social-login-content {
+  margin: 0px -30px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  padding: 30px 0px;
+  background: #fcfcfc;
+}
+.social-button {
+  padding: 0 30px;
+}
+.social-button i {
+  padding: 19px;
+}
+.register-link a {
+  color: #03a9f5;
+}

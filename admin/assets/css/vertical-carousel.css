@@ -1,0 +1,76 @@
+/*    Font Variable
+----------------------*/
+/*    Color Variable
+-----------------------*/
+/*    Solid Color
+------------------*/
+/*    Brand color
+----------------------*/
+.carousel.vertical .carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.carousel.vertical .carousel-inner > .item {
+  display: none;
+  position: relative;
+  transition: top 0.6s ease-in-out;
+}
+.carousel.vertical .carousel-inner > .item > img,
+.carousel.vertical .carousel-inner > .item > a > img {
+  line-height: 1;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel.vertical .carousel-inner > .item {
+    transition: transform 0.6s ease-in-out;
+    backface-visibility: hidden;
+    perspective: 1000;
+  }
+  .carousel.vertical .carousel-inner > .item.next,
+  .carousel.vertical .carousel-inner > .item.active.right {
+    transform: translate3d(0, 100%, 0);
+    top: 0;
+  }
+  .carousel.vertical .carousel-inner > .item.prev,
+  .carousel.vertical .carousel-inner > .item.active.left {
+    transform: translate3d(0, -100%, 0);
+    top: 0;
+  }
+  .carousel.vertical .carousel-inner > .item.next.left,
+  .carousel.vertical .carousel-inner > .item.prev.right,
+  .carousel.vertical .carousel-inner > .item.active {
+    transform: translate3d(0, 0, 0);
+    top: 0;
+    width: 100%;
+  }
+}
+.carousel.vertical .carousel-inner > .active,
+.carousel.vertical .carousel-inner > .next,
+.carousel.vertical .carousel-inner > .prev {
+  display: block;
+}
+.carousel.vertical .carousel-inner > .active {
+  top: 0;
+}
+.carousel.vertical .carousel-inner > .next,
+.carousel.vertical .carousel-inner > .prev {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.carousel.vertical .carousel-inner > .next {
+  top: 100%;
+}
+.carousel.vertical .carousel-inner > .prev {
+  top: -100%;
+}
+.carousel.vertical .carousel-inner > .next.left,
+.carousel.vertical .carousel-inner > .prev.right {
+  top: 0;
+}
+.carousel.vertical .carousel-inner > .active.left {
+  top: -100%;
+}
+.carousel.vertical .carousel-inner > .active.right {
+  top: 100%;
+}
